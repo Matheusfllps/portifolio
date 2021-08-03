@@ -23,7 +23,7 @@ nav{
    
    
 }
-a{
+.navbar{
     color: white;
     font-size: 1.5em;
     text-decoration: none;
@@ -31,8 +31,8 @@ a{
     padding-right: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-a:hover{
-    background-color: rgba(0, 0, 0, 0.685);
+.navbar:hover{
+    background-color: turquoise;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -69,5 +69,15 @@ footer{
     padding-left: 100px;
     color: white; 
     font-size: 1.5em;
+}
+main {
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+}
+img{
+    max-width: 500px;
+    
 }
 
